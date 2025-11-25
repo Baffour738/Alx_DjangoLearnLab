@@ -1,7 +1,7 @@
 ## Retrieve
 ```py
 from bookshelf.models import Book
-books = Book.objects.all()
+books = Book.objects.get(id = 1)
 print(books)
 # Expected output: <QuerySet [<Book: 1984 by George Orwell (1949)>]>
 
